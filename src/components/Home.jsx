@@ -4,7 +4,6 @@ import omar from "../assets/omar2.png";
 import { ContactIcon } from "./Icons";
 import { FadeIn } from "./FadeIn";
 import Socials from "./Socials";
-import Work from "./work";
 
 function Home() {
   return (
@@ -18,11 +17,12 @@ function Home() {
               className="overflow-hidden w-[108px] h-[108px] flex-[0_0_auto] rounded-full"
             />
             <h1 className="max-md:text-[40px] max-md:leading-[48px] max-md:tracking-[-0.01em]">
-              omar khalid
+             omar khalid
               <br />
               full stack developer{" "}
               <span className="text-[#8a8a93]">
-                who builds things for the web.
+                {" "}
+                who build things for the web.
               </span>
             </h1>
           </div>
@@ -37,11 +37,13 @@ function Home() {
               href="mailto:mirxaumar1212@gmail.com"
               className="min-h-[96px] bg-[#ff5e1a] transition-[background-color] duration-300 ease-[ease-out] text-[40px] leading-[48px] font-medium text-center tracking-[-0.01em] px-8 py-6 rounded-[99px] max-md:min-h-[80px] max-md:text-2xl max-md:leading-8 text-white"
             >
-              mirxaumar1212@gmail.com {" "}
+              contact us {""}
+             <span className=" animate-pulse">👋</span> 
             </a>
           </div>
         </div>
-     
+      </FadeIn>
+      <FadeIn>
         <Socials />
       </FadeIn>
       <FadeIn>
@@ -50,13 +52,11 @@ function Home() {
             I am a passionate full-stack developer with a love for frontend and
             designs.{" "}
             <span className="text-[#8a8a93]">
-              Join me to explore my unique projects and creative solutions.
+              {" "}
+              join me to explore my unique projects and creative solutions.
             </span>
           </h3>
         </div>
-      </FadeIn>
-      <FadeIn>
-        <Work />
       </FadeIn>
     </Container>
   );

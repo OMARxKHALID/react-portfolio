@@ -10,7 +10,19 @@ const socialData = [
     link: "#",
   },
   {
+    name: "twitter",
+    link: "#",
+  },
+  {
     name: "instagram",
+    link: "#",
+  },
+  {
+    name: "behance",
+    link: "#",
+  },
+  {
+    name: "dribbble",
     link: "#",
   },
 ];
