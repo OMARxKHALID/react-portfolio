@@ -48,7 +48,7 @@ function Work() {
         <div className="grid gap-8 max-w-[1240px] mx-auto mt-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {projectsData.map((project, index) => (
             <FadeIn key={index}>
-              <div className="bg-[#131315] p-8 rounded-xl hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105" style={{ zIndex: 900 }}>
+              <div className="bg-[#131315] p-8 rounded-xl hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
                 <h3 className="text-2xl font-bold mb-2 text-white">
                   {project.title}
                 </h3>

@@ -19,7 +19,7 @@ const navlinks = [
 
 function Navbar() {
   return (
-    <div>
+    <div style={{ position: "relative", zIndex: 1 }}>
       <FadeIn>
         <div className="flex max-w-[1240px] justify-between max-sm:justify-center items-center bg-[#131315] mx-auto px-8 py-4 max-lg:mx-2 rounded-[999px] mt-6">
           <span className="text-lg leading-6 -translate-x-[0.01em] ">
