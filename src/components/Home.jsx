@@ -37,7 +37,7 @@ function Home() {
               href="mailto:mirxaumar1212@gmail.com"
               className="min-h-[96px] bg-[#ff5e1a] transition-[background-color] duration-300 ease-[ease-out] text-[40px] leading-[48px] font-medium text-center tracking-[-0.01em] px-8 py-6 rounded-[99px] max-md:min-h-[80px] max-md:text-2xl max-md:leading-8 text-white"
             >
-              contact us {""}
+              hy@omar.com {""}
              <span className=" animate-pulse">👋</span> 
             </a>
           </div>
